@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>searching the web</title>
+    <style>
+        
+        .navbar ul li {
+            overflow: auto;
+            background-color: black;
+            border-radius: 9px;
+        }
+
+        .navbar {
+            background-color: black;
+            border-radius: 9px;
+        }
+
+        
+
+        .navbar li {
+            list-style: none;
+            float: left;
+            margin: 13px 20px;
+        }
+
+        .navbar li a {
+            padding: 8px;
+            text-decoration: none;
+            color: rgb(160, 59, 59);
+        }
+
+        .search {
+            color: rgb(129, 47, 47);
+            float: right;
+            margin: 4px;
+            padding: 4px 40px;
+        }
+
+        .navbar input {
+            border: 2px solid rgb(0, 0, 0);
+            border-radius: 7px;
+            width: 100%;
+            padding: 4px;
+        }
+
+        .navbar li a:hover {
+            color: #b61d1d79;
+            text-transform: capitalize;
+        }
+
+        .navbar li a::after{
+            color: rgb(13, 13, 139);
+        }
+    </style>
+</head>
+
+<body >
+
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="new.html" target="_blank">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <div class="search">
+                <input type="text" id="search"name="search" placeholder="Search"> 
+                    <!-- here placeholder means it will be display in the place of this area  -->
+                </div>
+            </ul>
+        </nav>
+    </header>
+</body>
+
+</html>
